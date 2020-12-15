@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/ecode"
         android:textSize="40px"
         android:textColor="#1C0903"
         android:layout_width="match_parent"
@@ -24,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/ename"
         android:textSize="40px"
         android:textColor="#1C0903"
         android:layout_width="match_parent"
@@ -36,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/desig"
         android:textSize="40px"
         android:textColor="#1C0903"
         android:layout_width="match_parent"
@@ -48,6 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/cname"
         android:textSize="40px"
         android:textColor="#1C0903"
         android:layout_width="match_parent"
@@ -60,11 +64,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/place"
         android:textSize="40px"
         android:textColor="#1C0903"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
+        android:onClick="submitevent"
         android:text="SUBMIT"
         android:textColor="#1C0903"
         android:textStyle="bold"
